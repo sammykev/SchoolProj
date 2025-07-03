@@ -279,3 +279,19 @@ body {
   transition: 0.3s ease-in-out;
   
 }
+#sm-banner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between ;
+}
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('img/banner/b17.jpg');
+  min-width: 580px;
+  height: 40vh;
+  padding: 30px;
+}
